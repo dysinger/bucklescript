@@ -158,6 +158,6 @@ external toStringWithRadix : int -> radix:int -> string = "toString" [@@bs.send]
 
 let equal (x: int) y = x = y
 
-let max : int = 2147483647
+let max : int = 16777216
 
-let min : int = -2147483648
+let min : int = -16777216
